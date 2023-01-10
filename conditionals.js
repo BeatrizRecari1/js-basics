@@ -69,3 +69,5 @@ switch(yourPet) {
         console.log("Wow I didn't even heard of that!")
         break                       
 }
+
+ // For more on ternaries, look at ternary.js
