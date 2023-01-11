@@ -63,16 +63,18 @@ function bridgetteHomework (num1, num2) {
     return num1 * num2
 }
 
-bridgetteHomework (3, 7)
+
+const solution = bridgetteHomework(3, 7)
+console.log(solution)
 
 // Second exercise, create a function that returns the square of a number
 
 function squareNumber (num1, num2) {
-    return num1 * * num2
+    return num1 ** num2
 }
 
-squareNumber (2, 3)
-
+const solution1 = squareNumber(2, 3)
+console.log (solution1)
 // Third exercise, create an object called "student" and add 3 properties with their values
 
 const student = {
