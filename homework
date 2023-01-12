@@ -1,0 +1,39 @@
+
+
+
+for (let i = 0; i < 10; i++) {
+    console.log(i, ":-)")
+}
+
+for (let j = 1; j <= i; j++) {
+    console.log(i, ":-)")
+}
+
+// Create a function that removes the first element of the array below and adds “kiwi” to the end of the array
+
+let favoriteFruits = [
+    "mango",
+    "lychee", 
+    "rambutan", 
+    "papaya"
+]
+favoriteFruits.shift(); // Removes the first item of the list
+console.log(favoriteFruits)
+
+favoriteFruits.push("Kiwi") // Adds "Kiwi" to the end of the list
+console.log(favoriteFruits)
+
+/* Write a function named assignGrade, that takes one argument, a number score.
+Return a grade for the score, either “A,” “B,” “C,” “D,” or “F.” Invoke that function for a few different scores and log the result to make sure it works. (edited) */
+
+function assignGrade(x) {
+    if (x >= 7) {
+        return "A";
+    } 
+    if (6 > x > 5) {
+        return "B"
+    }
+    if (4 > x > 0 ) {
+        return "C"
+    }
+}

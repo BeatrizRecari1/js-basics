@@ -35,3 +35,10 @@ const mySum = addTwoNumbers(23, 17)
 
 console.log(mySum)
 
+
+// Real World type example
+
+function calculateSalesTax(subtotal, taxRate) {
+    const salesTax = (subtotal * taxRate).toFixed(2)
+    return salesTax 
+}
