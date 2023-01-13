@@ -14,12 +14,11 @@
      let vowels = ["a","e","o","i","u"];
 
      for (let i = 0; i < string.length; i++) {
-         if (vowels.indexOf(string[i] !== -1)) {
+         if (vowels.indexOf(string[i]) !== -1) {
              vowelsCount += 1;
          }
-     return vowelsCount
      }
-    
+    return vowelsCount
  }
 console.log(letCount("Frankfurt"))
 
