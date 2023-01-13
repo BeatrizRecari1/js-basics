@@ -1,4 +1,4 @@
-
+// Homework creating a pyramid with emojis
 
 
 for (let i = 0; i < 10; i++) {
@@ -28,14 +28,39 @@ Return a grade for the score, either “A,” “B,” “C,” “D,” or “F
 
 function assignGrade(x) {
     if (x >= 7) {
-        return "A";
+        console.log("A")
     } 
     if (6 > x > 5) {
-        return "B"
+        console.log("B")
     }
     if (4 > x > 0 ) {
-        return "C"
+        console.log("C")
     }
 }
 
 console.log(8)
+
+// REVIEWING HOMEWORK EXERCISE 01/11/23 (BONUS)
+
+function assignGrade(score) {
+    case score >= 90:
+        console.log("A")
+        break
+    case score >= 79 && score <= 89: // this range is not necessary
+        console.log("B")
+        break
+    case score >= 69 && score <= 79:
+        console.log("C")
+        break
+    case score >= 59 && score <= 69:
+        console.log("D")
+        break
+    case score < 69:
+        console.log("F")
+        break
+    default:
+        console.log("Enter grade")
+        break
+}
+
+assignGrade(72)
