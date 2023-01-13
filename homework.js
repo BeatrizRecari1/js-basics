@@ -64,3 +64,16 @@ function assignGrade(score) {
 }
 
 assignGrade(72)
+
+// Create a function that takes an array of numbers and returns a new array with the square of each number.
+
+let numbers = [2, 7, 13, 24];
+let newArray = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  newArray.push(Math.pow(numbers[i] ** 2));
+}
+
+console.log(newArray);
+
+// Create a function that takes in a number of two-pointers and three-pointers made and returns a basketball team’s total score. Console.log the results.c
