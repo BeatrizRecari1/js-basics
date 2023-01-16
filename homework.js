@@ -77,3 +77,31 @@ for (let i = 0; i < numbers.length; i++) {
 console.log(newArray);
 
 // Create a function that takes in a number of two-pointers and three-pointers made and returns a basketball team’s total score. Console.log the results.c
+
+
+
+// 01/14-15/23 (Weekend week1)
+/* 1. Create a function which returns the number of true values there are in an array.
+const testArray = [ true, false, false, true, false, false, false, true, true, true, false ] */
+
+// .filter(Boolean); // will keep every truthy value in an array
+
+const testArray = [ true, false, false, true, false, false, false, true, true, true, false ]
+
+const count = arr.filter(Boolean).length;
+
+console.log(count);
+
+// 2. Write a function called combineTwoArrays that takes in two arrays as arguments, and returns a single array that combines both.
+
+let array1 = ["Bali", "Singapore", "Taiwan"];
+let array2 = ["Japan", "China"];
+
+array1 = array1.concat(array2);
+
+console.log(array1);
+
+// Create a new version of shoppingList where the items in the cart have been removed
+
+
+
