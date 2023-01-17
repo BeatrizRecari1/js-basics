@@ -94,8 +94,8 @@ console.log(count);
 
 // 2. Write a function called combineTwoArrays that takes in two arrays as arguments, and returns a single array that combines both.
 
-let array1 = ["Bali", "Singapore", "Taiwan"];
-let array2 = ["Japan", "China"];
+const array1 = ["Bali", "Singapore", "Taiwan"];
+const array2 = ["Japan", "China"];
 
 array1 = array1.concat(array2);
 
@@ -103,5 +103,25 @@ console.log(array1);
 
 // Create a new version of shoppingList where the items in the cart have been removed
 
+// Create an object with your name, age and indicate (as a boolean) whether or not you are feeling confident. 
+
+const notFeelingConfident = {
+    Name: "Beatriz",
+    Age: 35
+    Status: true
+};
 
 
+// Write a function that adds two numbers (return the result): // paste from your code editor
+
+function addTwoNumbers (a, b) {
+    return a + b
+}
+
+// Write a function that counts up from 1 to 10: (Hint: loops) // paste from your code editor
+
+const countToTen = () => {
+    for(let i = 0; i < 11; i++)
+    return countToTen
+}
+console.log(countToTen)

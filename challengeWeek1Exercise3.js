@@ -9,3 +9,20 @@ function rowsOfStars (r, c, emoji) {
 }
 
 console.log(rowsOfStars(10,30,":-)"))
+
+// Another version
+
+function cloudPyramid(row, column) {
+    for(let r = 0; r < row; r++) {
+        let row = "";
+
+        for (let c = 0; c < column; j++) {
+            
+            row += "*"
+        }
+    }
+}
+console.log(cloudPyramid)
+
+
+
